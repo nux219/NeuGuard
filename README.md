@@ -1,5 +1,4 @@
 # NeuGuard
-NeuGuard: Lightweight Neuron-Guided Defense against Membership Inference Attacks
 
 
 To check the model used in the paper, please:
