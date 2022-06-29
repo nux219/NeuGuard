@@ -10,4 +10,4 @@ To check the model used in the paper, please:
 
 <!-- The pretrained models can be download [here](https://drive.google.com/drive/folders/1qjPOpicHpCoKcdmL2Iko5f7P6ho5MrIq?usp=sharing). -->
 
-The link include models for CIFAR10. 
+<!-- The link include models for CIFAR10.  -->
