@@ -8,6 +8,6 @@ To check the model used in the paper, please:
 4. Load sort NN attack model in the '# NN attack model' cell and the following two cells to check the model accuracy
 
 
-The pretrained models can be download [here](https://drive.google.com/drive/folders/1qjPOpicHpCoKcdmL2Iko5f7P6ho5MrIq?usp=sharing).
+<!-- The pretrained models can be download [here](https://drive.google.com/drive/folders/1qjPOpicHpCoKcdmL2Iko5f7P6ho5MrIq?usp=sharing). -->
 
 The link include models for CIFAR10. 
