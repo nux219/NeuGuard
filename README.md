@@ -7,7 +7,7 @@ To check the model used in the paper, please:
 3. Load unsort NSH attack model in the '# load membership inference attack ' cell and the following five cells to check the model accuracy
 4. Load sort NN attack model in the '# NN attack model' cell and the following two cells to check the model accuracy
 
-
+We will release the pretrianed models for the work after the paper is published.
 <!-- The pretrained models can be download [here](https://drive.google.com/drive/folders/1qjPOpicHpCoKcdmL2Iko5f7P6ho5MrIq?usp=sharing). -->
 
 <!-- The link include models for CIFAR10.  -->
