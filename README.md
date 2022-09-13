@@ -31,7 +31,7 @@ To check the model used in the paper, please.
 
 # Pretrained models 
 
-Here are the pretrianed models used for the work.
+We provide pretrianed models used for the work. Specifically, we upload the models trained using the proposed NeuGuard method for all three datasets, and we include both sorted and unsorted NN based attack models, respectively.
 
 The **pretrained models** can be download **[here](https://drive.google.com/drive/folders/1qjPOpicHpCoKcdmL2Iko5f7P6ho5MrIq?usp=sharing)**.
 
