@@ -32,5 +32,5 @@ To check the model used in the paper, please:
 
 We will release the pretrianed models for the work after the paper is published.
 
-The pretrained models can be download [here](https://drive.google.com/drive/folders/1qjPOpicHpCoKcdmL2Iko5f7P6ho5MrIq?usp=sharing).
+The pretrained models can be download **[here](https://drive.google.com/drive/folders/1qjPOpicHpCoKcdmL2Iko5f7P6ho5MrIq?usp=sharing)**.
 
