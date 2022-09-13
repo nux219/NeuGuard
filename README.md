@@ -4,9 +4,9 @@ We use jupyter notebook to demo the codes and show the attack results on our pre
 
 The folder contains three sepereate jupyter files for different dataset.
 
-- **NeuGuard_ALEXNET_cifar10_attack.ipynb** for CIFAR10 dataset
-- **NeuGuard_ALEXNET_cifar100.ipynb** for CIFAR100 dataset
-- **NeuGuard_Texas100.ipynb** for Texas100 dataset.
+- **[NeuGuard_ALEXNET_cifar10_attack.ipynb](./NeuGuard_ALEXNET_cifar10_attack.ipynb)** for CIFAR10 dataset
+- **[NeuGuard_ALEXNET_cifar100.ipynb](./NeuGuard_ALEXNET_cifar100.ipynb)** for CIFAR100 dataset
+- **[NeuGuard_Texas100.ipynb](./NeuGuard_Texas100.ipynb)** for Texas100 dataset.
 
 
 # Datasets
