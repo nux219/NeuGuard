@@ -14,7 +14,7 @@ To run the attack evaluation, you will need to download the three datasets first
 
 For the Texas100 dataset, the default way may take some time to load the data each time, we save a npz file to speed up the loading. 
 - Name: texas100_data.npz download [here](https://drive.google.com/file/d/1G9-oWyLqiSTDuB2ku6xYY7MVWOur6OOA/view?usp=sharing).
-- We load Texas100 data with a randomize order following the file 'random_r_texas100_prune'. Please download it before runing the code.
+- We load Texas100 data with a randomize order following the file 'random_r_texas100_prune'. Please download it before running the code.
 
 
 
