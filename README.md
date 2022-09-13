@@ -13,8 +13,8 @@ The folder contains three sepereate jupyter files for different dataset.
 To run the attack evaluation, you will need to download the three datasets first.
 
 For Texas100 dataset, the default way may take some time to load the data every time, we saved a npz file for faster loading. 
-Name: texas100_data.npz download [here]().
-We load Texas100 data with a randomize order following the file 'random_r_texas100_prune'. Please download it before runing the code.
+- Name: texas100_data.npz download [here](https://drive.google.com/file/d/1G9-oWyLqiSTDuB2ku6xYY7MVWOur6OOA/view?usp=sharing).
+- We load Texas100 data with a randomize order following the file 'random_r_texas100_prune'. Please download it before runing the code.
 
 
 
