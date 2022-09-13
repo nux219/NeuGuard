@@ -21,12 +21,12 @@ For Texas100 dataset, the default way may take some time to load the data every 
 # Run the code
 
 To check the model used in the paper, please:
-1. Run all the cells above the '# start train' cell;
-2. Load model in the '# load saved model' cell and the following two cells to check the model accuracy
-3. Load unsort NSH attack model in the '# load membership inference attack ' cell and the following five cells to check the model accuracy
-4. Load sort NN attack model in the '# load NN attack model' cell and the following two cells to check the model accuracy
-5. Run cell in '# load for metric base attack' and following cells to perform the metric based attack.
-
+1. Run all the cells above the '**# start train**' cell.
+2. Load model in the '**# load saved mode**l' cell and the following two cells to check the model accuracy.
+3. Load unsort NSH attack model in the '**# load membership inference attack**' cell and the following five cells to check the model accuracy.
+4. Load sort NN attack model in the '**# load NN attack model**' cell and the following two cells to check the model accuracy.
+5. Run cell in '**# load for metric base attack**' and following cells to perform the metric based attack.
+6. Run cell in '**# load for c&w label-only attack**' and following cells to perform the c&w label-only attack.
 
 # Pretrained models 
 
