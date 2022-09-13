@@ -20,6 +20,7 @@ For Texas100 dataset, the default way may take some time to load the data every 
 
 # Run the code
 
+For each code in jupyter notebook, we have similar running steps. 
 To check the model used in the paper, please:
 1. Run all the cells above the '**# start train**' cell.
 2. Load model in the '**# load saved mode**l' cell and the following two cells to check the model accuracy.
