@@ -23,26 +23,32 @@ You can create the environment using the following command.
 
 Detailed instructions please check the conda [website](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#create-env-from-file).
 
+We specify the running environment here, but other versions of python and pytorch might also work.
+
 
 # Datasets
 To run the attack evaluation, you will need to download the three datasets first.
 
 For the Texas100 dataset, the default way to load the data takes long time, we save a npz file to speed up the loading. We provide both ways to load the data.
 - Name: texas100_data.npz download [here](https://drive.google.com/file/d/1G9-oWyLqiSTDuB2ku6xYY7MVWOur6OOA/view?usp=sharing).
-- We load Texas100 data with a randomized order following the file 'random_r_texas100_prune'. Please download it before running the code.
+- We load Texas100 data with a randomized order following the file [random_r_texas100_prune](./random_r_texas100_prune). Please download it before running the code. Using python 2 requires changes to the code that loads this file, and we provide the corresponding code for replacement.
 
-
+For CIFAR10 and CIFAR100 datasets, they will download automatically if you don't have them.
 
 # Run the code
 
+For the convenience of running the experiments, we provide the code in the jupyter notebook.
+
+Once you open the jupyter file, you can search for the corresponding cell using the **`# keywords`** given in each step and run the cells following the instructions.
+
 For each code in the jupyter notebook, we have similar running steps.
-To check the model used in the paper, please follow the instructions:
-1. Run all the cells above the '**# start train**' cell.
-2. Load model in the '**# load saved model**' cell and the following two cells to check the model accuracy.
-3. Load unsort NSH attack model in the '**# load membership inference attack**' cell and the following five cells to check the model accuracy.
-4. Load sort NN attack model in the '**# load NN attack model**' cell and the following two cells to check the model accuracy.
-5. Run the cell start in '**# load for metric base attack**' and the following cells to perform the metric based attack.
-6. Run the cell start in '**# load for c&w label-only attack**' and the following cells to perform the c&w label-only attack.
+
+1. Run all the cells above the **`# start train`** cell.
+2. Load model in the **`# load saved model`** cell and the following two cells to check the model accuracy.
+3. Load unsort NSH attack model in the **`# load membership inference attack`** cell and the following five cells to check the model accuracy.
+4. Load sort NN attack model in the **`# load NN attack model`** cell and the following two cells to check the model accuracy.
+5. Run the cell start in **`# load for metric base attack`** and the following cells to perform the metric based attack.
+6. Run the cell start in **`# load for c&w label-only attack`** and the following cells to perform the c&w label-only attack.
 
 # Pretrained models 
 
