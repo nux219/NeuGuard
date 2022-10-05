@@ -26,6 +26,8 @@ CUDA Enabled GPU hardware
 
 `pip install scikit-metrics`
 
+`conda install -c conda-forge progress`
+
 After the first time installation, you can use `conda activate pytorch` when you need to use the installed environment.
 
 - We also provide the [pytorch.yml](./pytorch.yml) file as a demo of the running environment. 
