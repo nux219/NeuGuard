@@ -11,11 +11,24 @@ Here are three separate jupyter files for different datasets.
 # Requirements:
 
 CUDA Enabled GPU hardware
-- python == 3.7.10
-- pytorch == 1.9.0
-- cudatoolkit == 10.2
 
-We provide the [environment.yml](./environment.yml) file for our running environment. 
+- The code should be able to run in most pytorch versions.
+
+- You can create environment with following code:
+
+`conda create -n pytorch pytorch-gpu torchvision cudatoolkit`
+
+`conda activate pytorch`
+
+`pip install notebook`
+
+`conda install -c conda-forge matplotlib`
+
+`pip install scikit-metrics`
+
+After the first time installation, you can use `conda activate pytorch` when you need to use the installed environment.
+
+- We also provide the [pytorch.yml](./pytorch.yml) file as a demo of the running environment. 
 
 You can create the environment using the following command. 
 
