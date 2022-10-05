@@ -32,7 +32,7 @@ After the first time installation, you can use `conda activate pytorch` when you
 
 You can create the environment using the following command. 
 
-`conda env create -f environment.yml`
+`conda env create -f pytorch.yml`
 
 Detailed instructions please check the conda [website](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#create-env-from-file).
 
