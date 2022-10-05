@@ -7,7 +7,7 @@ def distrs_compute(tr_values, te_values, tr_labels, te_labels, num_bins=5, log_b
     ### we recommand using the log scale to plot the distribution to get better-behaved distributions.
     
     num_classes = len(set(tr_labels))
-    sqr_num = np.ceil(np.sqrt(num_classes))
+    sqr_num = np.ceil(np.sqrt(num_classes)).astype(int)
     tr_distrs, te_distrs, all_bins = [], [], []
     
     plt.figure(figsize = (15,15))
