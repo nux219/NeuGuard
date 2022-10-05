@@ -20,13 +20,15 @@ CUDA Enabled GPU hardware
 
 `conda activate pytorch`
 
-`pip install notebook`
+`conda install -c conda-forge progress`
 
 `conda install -c conda-forge matplotlib`
 
+`pip install notebook`
+
 `pip install scikit-metrics`
 
-`conda install -c conda-forge progress`
+
 
 After the first time installation, you can use `conda activate pytorch` when you need to use the installed environment.
 
